@@ -1,0 +1,38 @@
+.home{
+        
+        .bg-our-work{
+                background-image: url('../imgs/index/section-bg-4.jpg');
+                background-size:cover;
+                height:495px;
+                width:100%;
+        }
+      
+        .bg-work{
+            background-image: url('../imgs/index/section-bg-19.jpg');
+                    background-size:cover;
+                    height:100vh;
+                    width:100%;
+        }
+
+
+        ul {
+               list-style: none;
+               li::before {
+                   content: " "; 
+                   font-size: 20px;
+                   margin-right:5px;
+               }
+        }
+
+        .about-list{
+           list-style: none;
+                li::before{
+                    content: ".";
+                    font-size: 30px;
+                    color:$yellow-color;
+                }
+           }
+
+
+    
+}// end of home

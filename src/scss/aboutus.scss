@@ -1,0 +1,41 @@
+.aboutus{
+    
+        .icon-face {
+                  color:black;
+                  visibility: visible;
+                  font-size: 30px;
+                  position: absolute;
+                  top: 50%;
+                  left: 60%;
+                  transform: translate(-700%, 83%);
+                  -ms-transform: translate(-700%, 83%);
+                  text-align: left;
+                }
+
+                .icon-twitter {
+                  color:black;
+                  font-size: 30px;
+                  position: absolute;
+                  top: 50%;
+                  left: 40%;
+                  transform: translate(56%, 83%);
+                  -ms-transform: translate(56%, 83%);
+                  text-align: center;
+                        }
+    
+                .icon-instegram {
+                  color:black;
+                  font-size: 30px;
+                  position: absolute;
+                  top: 50%;
+                  left: 40%;
+                  transform: translate(336%, 83%);
+                  -ms-transform: translate(336%, 83%);
+                  text-align: center;
+                        }
+    
+                .text-hover{
+                    padding-top: 120px;
+                    color:$text-grey;
+                }
+}
